@@ -3,9 +3,9 @@ Contributors: sevenspark
 Donate link: https://wpaccordionmenu.com
 Tags: menu, navigation, accordion, images, widgets, icons, shortcodes, responsive, expand, toggle, reveal, accordian
 Requires at least: 5.0
-Tested up to: 6.3.2
+Tested up to: 6.8.1
 Requires PHP: 7.4
-Stable tag: 1.4.3
+Stable tag: 1.4.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,10 @@ Please see the [Feature Comparison Table](https://wpaccordionmenu.com/features/)
 
 
 == Changelog ==
+
+= 1.4.4 =
+* Security: Fix XSS vulnerability - Authenticated (Contributor+) XSS via shortcode
+* Fix: Autopopulation Edge case with term autopopulation queries that return result sets that include children but not parents.
 
 = 1.4.3 =
 
